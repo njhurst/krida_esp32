@@ -1,7 +1,7 @@
 # krida_esp32
 Esp32 arduino code to drive krida 8 port triac phase angle control board
 
-Krida makes a nice 8 port triac board with arduino side sync pulses and good isolation.  They also seem to have used good snubber-less triacs allowing for negligible leakage current when the triacs are off.  I looked around but could not find any suitable esp family examples for driving this, and the esp32's ledc peripheral looked like it could naturally drive all 8 ports independantly with ease.
+Krida makes a nice 8 port triac board with arduino side sync pulses and good isolation.  They also seem to have used good snubber-less triacs allowing for negligible leakage current when the triacs are off.  I looked around but could not find any suitable esp family examples for driving this, and the esp32's ledc peripheral looked like it could naturally drive all 8 ports independently with ease.
 
 pin mapping from esp32 to "Krida 8 Channel AC Light Dimmer Module Arduino"
 
